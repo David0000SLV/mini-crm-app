@@ -4,7 +4,7 @@ import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 import { jwtDecode } from 'jwt-decode';
 
-const API_URL = 'https://smruti-crm-backend.onrender.com/api';
+const API_URL ='http://10.16.33.100:5000';
 const TOKEN_KEY = 'my-jwt';
 
 export const api = axios.create({
